@@ -1,6 +1,6 @@
-package com.socksmanagementsystem.collector;
+package com.socksManagementSystem.collector;
 
-import com.socksmanagementsystem.dto.SockDto;
+import com.socksManagementSystem.dto.SockDto;
 import io.restassured.http.ContentType;
 import io.restassured.specification.MultiPartSpecification;
 import org.junit.jupiter.api.Test;

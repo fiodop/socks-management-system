@@ -1,6 +1,6 @@
-package com.socksmanagementsystem.repository;
+package com.socksManagementSystem.repository;
 
-import com.socksmanagementsystem.model.Sock;
+import com.socksManagementSystem.model.Sock;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.web.bind.annotation.RequestMapping;
 

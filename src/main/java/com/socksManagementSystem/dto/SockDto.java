@@ -1,4 +1,4 @@
-package com.socksmanagementsystem.dto;
+package com.socksManagementSystem.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

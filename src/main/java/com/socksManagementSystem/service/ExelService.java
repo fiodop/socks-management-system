@@ -1,7 +1,7 @@
-package com.socksmanagementsystem.service;
+package com.socksManagementSystem.service;
 
-import com.socksmanagementsystem.model.Sock;
-import com.socksmanagementsystem.repository.SockRepository;
+import com.socksManagementSystem.model.Sock;
+import com.socksManagementSystem.repository.SockRepository;
 import lombok.AllArgsConstructor;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -10,7 +10,6 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

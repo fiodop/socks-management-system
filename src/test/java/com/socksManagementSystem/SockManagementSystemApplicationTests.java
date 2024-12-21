@@ -1,4 +1,4 @@
-package com.socksmanagementsystem;
+package com.socksManagementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

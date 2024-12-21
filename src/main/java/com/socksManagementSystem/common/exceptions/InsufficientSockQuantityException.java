@@ -1,4 +1,4 @@
-package com.socksmanagementsystem.common.exceptions;
+package com.socksManagementSystem.common.exceptions;
 
 public class InsufficientSockQuantityException extends RuntimeException {
     public InsufficientSockQuantityException(String message) {

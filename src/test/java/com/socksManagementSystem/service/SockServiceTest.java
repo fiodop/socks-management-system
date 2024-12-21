@@ -1,16 +1,15 @@
-package com.socksmanagementsystem.service;
+package com.socksManagementSystem.service;
 
-import com.socksmanagementsystem.common.exceptions.IllegalOperatorException;
-import com.socksmanagementsystem.common.exceptions.InsufficientSockQuantityException;
-import com.socksmanagementsystem.common.exceptions.SockNotFoundException;
-import com.socksmanagementsystem.dto.SockDto;
-import com.socksmanagementsystem.model.Sock;
-import com.socksmanagementsystem.repository.SockRepository;
+import com.socksManagementSystem.common.exceptions.IllegalOperatorException;
+import com.socksManagementSystem.common.exceptions.InsufficientSockQuantityException;
+import com.socksManagementSystem.common.exceptions.SockNotFoundException;
+import com.socksManagementSystem.dto.SockDto;
+import com.socksManagementSystem.model.Sock;
+import com.socksManagementSystem.repository.SockRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import static org.junit.jupiter.api.Assertions.*;

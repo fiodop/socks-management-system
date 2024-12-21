@@ -1,6 +1,6 @@
-package com.socksmanagementsystem.common.exceptions;
+package com.socksManagementSystem.common.exceptions;
 
-import com.socksmanagementsystem.dto.ErrorResponse;
+import com.socksManagementSystem.dto.ErrorResponse;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

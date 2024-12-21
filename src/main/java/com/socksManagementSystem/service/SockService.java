@@ -1,11 +1,11 @@
-package com.socksmanagementsystem.service;
+package com.socksManagementSystem.service;
 
-import com.socksmanagementsystem.common.exceptions.IllegalOperatorException;
-import com.socksmanagementsystem.common.exceptions.InsufficientSockQuantityException;
-import com.socksmanagementsystem.common.exceptions.SockNotFoundException;
-import com.socksmanagementsystem.dto.SockDto;
-import com.socksmanagementsystem.model.Sock;
-import com.socksmanagementsystem.repository.SockRepository;
+import com.socksManagementSystem.common.exceptions.IllegalOperatorException;
+import com.socksManagementSystem.common.exceptions.InsufficientSockQuantityException;
+import com.socksManagementSystem.common.exceptions.SockNotFoundException;
+import com.socksManagementSystem.dto.SockDto;
+import com.socksManagementSystem.model.Sock;
+import com.socksManagementSystem.repository.SockRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -41,7 +41,7 @@ public class SockService {
             throw new SockNotFoundException("Sock with color " + sockRequest.getColor() + " with cotton part = "
                     + sockRequest.getCottonPart() + " not found");
         } else {
-            if(sockToRemove.getQuantity() > sockRequest.getQuantity()) {
+            if(sockToRemove.getQuantity() < sockRequest.getQuantity()) {
                 throw new InsufficientSockQuantityException("Not enough socks in stock to remove");
             } else {
                 sockToRemove.setQuantity(sockToRemove.getQuantity() - sockRequest.getQuantity());
