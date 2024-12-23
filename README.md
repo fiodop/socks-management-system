@@ -107,7 +107,7 @@ spring.datasource.password=root
 ```  
 
 ## Контакты
-Автор: Артём Ключаров
+Автор: Артём Ключаров  
 GitHub: [github.com/fiodop](https://github.com/fiodop)  
 Email: artemklucarov666@gmail.com
 
